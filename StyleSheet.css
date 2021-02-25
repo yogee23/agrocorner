@@ -1,0 +1,144 @@
+h1{
+    color: forestgreen;
+    text-align: center;
+    font-family:  Georgia;}
+    h2{
+        color: forestgreen;
+        text-align: center;
+        font-family:  Georgia;}
+.banner{
+    width: 100%;
+    height: 80vh;
+    background-image:url('ag2.jpg');
+    background-position:center;
+    background-size:cover;}
+
+    .navbar{
+        width: 85%;
+        padding: 10px 0;
+        margin: auto;
+        display: flex;
+        align-items: right;
+        justify-content: space-between;}
+
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: forestgreen;
+            color:darkgreen;
+            font-family: 'Gill Sans'; 
+            font-size: larger;
+            font-style: inherit;
+        }
+        .navbar ul li:after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background-color:greenyellow ;
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+            width: 100%;}
+        button{
+                padding: 5px 25px;   
+                margin: 8px;    
+                font-size: 16px;
+                letter-spacing: 1px; border: 2px solid forestgreen;    
+                color: black; cursor: pointer;    
+                background: linear-gradient(to right, transparent 50%,forestgreen 50%);    
+                background-size: 200%;    
+                background-position: left; transition: background-position 0.5s;
+        }
+        button:hover{
+                background-position: right;
+                color: black;
+        }
+                
+        
+.gallery{
+    padding: 30px 30px;
+    font-size: 25px;
+    background-color: rgba(118, 235, 157, 0.637);
+    font-weight: 100;
+    height: max-content;
+    font-family: sans-serif;
+}   
+*{
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.clm{
+    float: left;
+    width: 33.33%;
+    padding: 18px;
+}
+.clm img{
+    height: 300px;
+}
+.clm h4{
+    color: forestgreen;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+  .contact-section{
+    background-size: cover;
+    padding: 40px 0;
+  }
+  .contact-section h1{
+    text-align: center;
+    color: black;
+  }
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background:rgba(118, 235, 157, 0.637) ;
+    padding: 20px 40px;
+    outline: none;
+    color: black;
+    transition: 0.5s;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background:rgba(118, 235, 157, 0.637);
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: rgba(118, 235, 157, 0.637);
+  }
+  
+    
+
+    
+    
+
